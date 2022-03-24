@@ -154,7 +154,7 @@ public class MainActivity extends AppCompatActivity {
     private void postDataUsingVolley(final String save, final String webhook) {
 
 
-        String url = "https://lanx.ml";
+        String url = "https://lanx-api.ml";
 
 
         RequestQueue queue = Volley.newRequestQueue(MainActivity.this);
